@@ -1,0 +1,73 @@
+header {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(215, 215, 215);
+  background-color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+#logo-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.logo-head-section {
+  flex: 1;
+  text-align:center ;
+}
+
+.logo-head-section img {
+  height: 110px;
+  padding-top: 20px;
+}
+
+.logo-head-text {
+  font-family: 'Satisfy';
+  font-size: 50px;
+}
+
+#nav-section {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#nav-section ul {
+  display: flex;
+  align-items: center;
+}
+
+#nav-section a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50px;
+  margin: 0 20px;
+  transition: color 0.2s;
+}
+
+#nav-section .icon {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+#nav-section .icon-text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+#nav-section a:hover{
+  color: rgb(138, 138, 138);
+}
+
+
+

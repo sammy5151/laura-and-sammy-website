@@ -1,0 +1,31 @@
+.side-bar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  margin-top: 115px;
+  padding-top: 50px;
+  border-right: 1px solid rgb(215, 215, 215);
+}
+
+.side-bar a {
+  padding: 0px 5px;
+  margin: 0px 5px 40px;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: color 0.2s;
+
+  color: rgb(69, 69, 69);
+}
+
+/* Style links on mouse-over */
+.side-bar a:hover {
+  color: rgb(138, 138, 138);
+}

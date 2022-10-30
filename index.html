@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laura and Sammy</title>
+  <!-- CSS-Files -->
+  <link rel="stylesheet" href="new-styles/header.css">
+  <link rel="stylesheet" href="new-styles/general.css">
+  <link rel="stylesheet" href="new-styles/main.css">
+
+  <!-- Header-Icons -->
+  <link href='https://css.gg/home-alt.css' rel='stylesheet'>
+  <link href='https://css.gg/home.css' rel='stylesheet'>
+  <link href='https://css.gg/dice-6.css' rel='stylesheet'>
+  <link href='https://css.gg/card-hearts.css' rel='stylesheet'>
+  <link rel="stylesheet" href="nav-icons/Finger_heart.png">
+  <link href='https://css.gg/menu.css' rel='stylesheet'>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header class = "header">
+    <div class = "logo">
+      <div class="logo__section">
+        <div class = "logo__left">Laura</div>
+      </div>
+      <div class="logo__section">
+        <div class = "logo__middle"><img class="logo__image" src="nav-icons/Finger_heart.png" alt=""></div>
+      </div>
+      <div class="logo__section">
+        <div class = "logo__right">Sammy</div>
+      </div>
+
+    </div>
+
+    <nav class = "nav">
+
+      <ul class="nav__list">
+        <li class="nav__element">
+          <a class="nav__link" href="">
+            <div class = "nav__icon"><i class="gg-home"></i></div>
+            <div class = "nav__icon-text">Home</div>
+          </a>
+        </li>
+        <li class="nav__element">
+          <a class="nav__link" href="">
+            <div class = "nav__icon"><i class="gg-dice-6"></i></div>
+            <div class = "nav__icon-text">Schlag den Sammy</div>
+          </a>
+        </li>
+        <li class="nav__element">
+          <a class="nav__link" href="">
+            <div class = "nav__icon"><i class="gg-card-hearts"></i></div>
+            <div class = "nav__icon-text">Next Date</div>
+          </a>
+        </li>
+      </ul>
+
+    </section>
+  </header>
+
+  <main>
+    <h1 class="welcome-heading">Welcome to our page! :)</h1>
+
+    <section class="since">
+      <h2 class="since__heading section-heading">Together since:</h2>
+      <div class="since__cards">
+        <div class="since__component">
+          <div class="since__numeric since__numeric--years">00</div>
+          <div class="since__unit">Years</div>
+        </div>
+        <div class="since__component">
+          <div class="since__numeric since__numeric--months">00</div>
+          <div class="since__unit">Months</div>
+        </div>
+        <div class="since__component">
+          <div class="since__numeric since__numeric--weeks">00</div>
+          <div class="since__unit">Weeks</div>
+        </div>
+        <div class="since__component">
+          <div class="since__numeric since__numeric--days">00</div>
+          <div class="since__unit">Days</div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.6/dayjs.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.6/plugin/duration.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.6/plugin/relativeTime.min.js"></script>
+  <script src="scripts/since.js"></script>
+</body>
+
+</html>
